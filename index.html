@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Oswald:wght@600&display=swap" rel="stylesheet">
+  <title>Coder Pizza</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 768px)">
+  <link rel="stylesheet" href="./css/desktop.css" media="(min-width: 1024px)">
+</head>
+<body>
+  <header>
+    <div class="logo__container">
+      <span class="logo"></span>
+      <h1 class="logo__title">C0d3r P1zz4</h1>
+    </div>
+    <div class="menu__icon--container">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+      <ul class="mobile__menu">
+        <li class="item"><a href="#home">Home</a></li>
+        <li class="item"><a href="#popular">Most Popular</a></li>
+        <li class="item"><a href="#offer">Special Offer</a></li>
+        <li class="item"><a href="#menu">Menu</a></li>
+      </ul>
+    </div>
+    <nav class="navbar__menu--container">
+      <ul class="desktop__menu">
+        <li class="item"><a href="#home">Home</a></li>
+        <li class="item"><a href="#popular">Most Popular</a></li>
+        <li class="item"><a href="#offer">Special Offer</a></li>
+        <li class="item"><a href="#menu">Menu</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="main__welcome" id="home">
+      <img src="https://images.pexels.com/photos/1653877/pexels-photo-1653877.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="pizza-main">
+      <div class="welcome__title">
+        <h2>C0d3r P1zz4</h2>
+        <p>The programmer's fav pizza</p>
+      </div>
+      <div class="welcome__btn">
+        <button><a href="#menu">Menu</a></button>
+        <button><a href="#">My Order</a></button>
+      </div>
+    </section>
+    
+    <section class="main__most-popular" id="popular">
+      <h2>Most Polular</h2>
+      <section class="most-popular__cards">
+        <article class="popular__card">
+          <div class="card__img">
+            <h3>four cheese pizza</h3>
+            <img src="https://www.recetasnestle.com.ar/sites/default/files/2022-01/tipos-de-pizzas-pepperoni.jpg.jpg" alt="fourCheese-pizza">
+            <button><a href="#4cheese">See More</a></button>
+          </div>
+        </article>
+        <article class="popular__card">
+          <div class="card__img">
+            <h3>pepperoni pizza</h3>
+            <img src="https://placeralplato.com/files/2016/01/Pizza-con-pepperoni-640x480.jpg?width=1200&enable=upscale" alt="pepperoni-pizza">
+            <button><a href="#pepperoni">See More</a></button>
+          </div>
+        </article>
+        <article class="popular__card">
+          <div class="card__img">
+            <h3>fugazza pizza</h3>
+            <img src="https://delvecchio.cl/pizzeria-del-vecchio/wp-content/uploads/2022/02/FUGAZA-scaled.jpg" alt="fugazza-pizza">
+            <button><a href="#fugazza">See More</a></button>
+          </div>
+        </article>
+        <article class="popular__card">
+          <div class="card__img">
+            <h3>four seasons pizza</h3>
+            <img src="https://recetas.easyways.cl/img/fotoRecetas/20210209062110pizza-cuatro-estaciones.jpg" alt="fourSeasons-pizza">
+            <button><a href="#fugazza">See More</a></button>
+          </div>
+        </article>
+      </section>
+    </section>
+
+    <section class="main__special-offer" id="offer">
+      <section class="special-offer__container">
+        <img src="https://recetas.easyways.cl/img/fotoRecetas/20210209062110pizza-cuatro-estaciones.jpg" alt="fourSeasons-pizza">
+        <h3>Special Offer</h3>
+        <div class="timer">
+          <input class="counter" id="day" type="text" readonly>
+          <input class="counter" id="hour" type="text"  readonly>
+          <input class="counter" id="minute" type="text"  readonly>
+          <input class="counter" id="second" type="text"  readonly>
+        </div>
+      </section>
+      <section class="special-offer__info">
+        <h3>Four Seasons Pizza</h3>
+        <p>artichokes to symbolize spring, ham for the cold of winter, olives for the summer sun and mushrooms for autumn</p>
+        <button>More Info</button>
+        <button>Order</button>
+      </section>
+    </section>
+
+    <section class="main__menu" id="menu">
+      <h2>Menu</h2>
+      <section class="menu-cards__container">
+        <article class="menu-card" id="4cheese">
+          <img src="https://www.recetasnestle.com.ar/sites/default/files/2022-01/tipos-de-pizzas-pepperoni.jpg.jpg" alt="fourCheese-pizza">
+          <div class="menu-info">
+            <h3>four cheese pizza</h3>
+            <p>with mozzarella cheese, gorgonzola cheese, parmesan cheese and fontina cheese</p>
+            <p>$12.00</p>
+          </div>
+        </article>
+        <article class="menu-card" id="pepperoni">
+          <img src="https://placeralplato.com/files/2016/01/Pizza-con-pepperoni-640x480.jpg?width=1200&enable=upscale" alt="pepperoni-pizza">
+          <div class="menu-info">
+            <h3>pepperoni pizza</h3>
+            <p>with pepperoni, tomato, cheese and a touch of basil</p>
+            <p>$15.00</p>
+          </div>
+        </article>
+        <article class="menu-card" id="fugazza">
+          <img src="https://delvecchio.cl/pizzeria-del-vecchio/wp-content/uploads/2022/02/FUGAZA-scaled.jpg" alt="fugazza-pizza">
+          <div class="menu-info">
+            <h3>fugazza pizza</h3>
+            <p>with onion, a generous amount of cheese and olives</p>
+            <p>$11.00</p>
+          </div>
+        </article>
+        <article class="menu-card">
+          <img src="https://recetas.easyways.cl/img/fotoRecetas/20210209062110pizza-cuatro-estaciones.jpg" alt="fourSeasons-pizza">
+          <div class="menu-info">
+            <h3>Four Seasons Pizza</h3>
+            <p>with artichokes, ham , olives and mushrooms</p>
+            <p>$18.00</p>
+          </div>
+        </article>
+      </section>
+      <button><a href="#">See More</a></button>
+    </section>
+  </main>
+  <footer>
+    <h2>C0d3r P1zz4</h2>
+    <p>Copyright 2022</p>
+  </footer>
+
+  <script src="./main.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+.logo__container {
+  margin-left: 30px;
+}
+
+.menu__icon--container {
+  display: none;
+}
+
+.navbar__menu--container {
+  display: block;
+  margin-right: 30px;
+}
+
+.desktop__menu {
+  display: flex;
+  list-style: none;
+}
+
+.welcome__title {
+  top: calc(50% - 125px);
+  left: calc(50% - 250px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 500px;
+  height: 250px;
+}
+
+.welcome__title h2 {
+  font-size: 3.8rem;
+}
+
+.welcome__btn {
+  display: none;
+}
+
+.main__special-offer {
+  width: 80%;
+}
